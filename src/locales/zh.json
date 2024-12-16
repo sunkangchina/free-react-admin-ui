@@ -1,0 +1,252 @@
+{
+  "common": {
+    "loading": "加载中...",  
+    "enabled": "已启用", 
+    "previous": "上一页",
+    "next": "下一页",  
+    "searchResults": {
+      "users": "用户管理",
+      "products": "产品管理",
+      "reports": "报表统计",
+      "settings": "系统设置"
+    },
+    "dashboard": "仪表盘",
+    "users": "用户管理",
+    "products": "产品管理",
+    "reports": "数据报表",
+    "settings": "系统设置",
+    "logout": "退出登录",
+    "search": "搜索",
+    "adminPanel": "管理后台",
+    "save": "保存",
+    "cancel": "取消",
+    "back": "返回",
+    "edit": "编辑",
+    "delete": "删除",
+    "confirm": "确认",
+    "submit": "提交", 
+    "disabled": "已禁用",
+    "confirmLogout": "确认退出",
+    "logoutMessage": "确定要退出登录吗？",
+    "product": "产品",
+    "add": "添加",
+    "loginSettings": "登录设置",
+    "themeSettings": "主题设置"
+  },
+  "dashboard": {
+    "title": "仪表盘概览",
+    "stats": {
+      "totalUsers": "总用户数",
+      "totalProducts": "总产品数",
+      "revenue": "总收入",
+      "growth": "增长率"
+    },
+    "recentActivity": {
+      "title": "最近活动",
+      "item": "活动 {{number}}",
+      "description": "这是一条活动描述",
+      "timeAgo": "{{time}}前"
+    },
+    "onlineDevices": {
+      "title": "在线设备统计",
+      "today": "今日",
+      "yesterday": "昨日",
+      "last24Hours": "最近24小时"
+    }
+  },
+  "users": {
+    "title": "用户管理",
+    "list": "用户列表",
+    "add": "添加用户",
+    "edit": "编辑用户",
+    "delete": "删除用户",
+    "columns": {
+      "id": "ID",
+      "name": "用户名",
+      "email": "邮箱",
+      "role": "角色",
+      "status": "状态"
+    },
+    "status": {
+      "active": "在线",
+      "inactive": "离线"
+    }
+  },
+  "products": {
+    "title": "产品管理",
+    "list": "产品列表",
+    "addNew": "添加产品",
+    "edit": "编辑产品",
+    "delete": "删除产品", 
+    "columns": {
+      "id": "ID",
+      "name": "产品名称",
+      "price": "价格",
+      "stock": "库存",
+      "status": "状态"
+    },
+    "status": {
+      "in-stock": "有货",
+      "low-stock": "库存不足",
+      "out-of-stock": "无货"
+    },
+    "form": {
+      "createProduct": "创建产品",
+      "title": "添加产品",
+      "back": "返回产品列表",
+      "fields": {
+        "title": "产品名称",
+        "titlePlaceholder": "请输入产品名称",
+        "price": "价格",
+        "stock": "库存",
+        "stockPlaceholder": "请输入库存数量",
+        "description": "产品描述",
+        "image": "产品图片",
+        "orDragAndDrop" : "或拖拽文件至此",
+        "uploadImage": "上传图片",
+        "imageSize" : "图片大小10M以内"
+      }
+    }
+  },
+  "reports": {
+    "title": "报表统计",
+    "periods": {
+      "today": "今日",
+      "yesterday": "昨日",
+      "thisWeek": "本周",
+      "lastWeek": "上周",
+      "thisMonth": "本月",
+      "lastMonth": "上月",
+      "thisYear": "今年",
+      "lastYear": "去年",
+      "custom": "自定义"
+    },
+    "filters": {
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "apply": "应用筛选"
+    },
+    "metrics": {
+      "totalRevenue": "总收入",
+      "totalOrders": "总订单",
+      "averageOrderValue": "平均订单金额",
+      "topProducts": "热销产品",
+      "topCategories": "热门分类"
+    },
+    "monthlyStats": "月度统计数据",
+    "export": {
+      "title": "导出报表",
+      "pdf": "导出 PDF",
+      "excel": "导出 Excel",
+      "csv": "导出 CSV"
+    },
+    "chart": {
+      "revenue": "收入",
+      "orders": "订单数",
+      "daily": "日报表",
+      "weekly": "周报表",
+      "monthly": "月报表",
+      "yearly": "年报表"
+    }
+  },
+  "settings": {
+    "title": "系统设置",
+    "description": "管理系统配置",
+    "general": "常规设置",
+    "security": "安全设置",
+    "notifications": "通知设置",
+    "backup": "备份设置",
+    "authentication": {
+      "google": {
+        "title": "Google 登录",
+        "description": "配置 Google OAuth 登录",
+        "clientId": "客户端 ID",
+        "clientSecret": "客户端密钥",
+        "redirectUri": "回调地址",
+        "enabled": "启用 Google 登录"
+      }
+    }
+  },
+  "login": {
+    "welcomeBack": "欢迎回来",
+    "description": "请登录您的账号",
+    "email": "邮箱",
+    "password": "密码",
+    "rememberMe": "记住我",
+    "forgotPassword": "忘记密码？",
+    "submit": "登录",
+    "noAccount": "还没有账号？",
+    "register": "立即注册",
+    "emailRequired": "请输入邮箱",
+    "passwordRequired": "请输入密码",
+    "invalidCredentials": "邮箱或密码错误"
+  },
+  "register": {
+    "title": "注册账号",
+    "description": "创建您的账号",
+    "username": "用户名",
+    "email": "邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "submit": "注册",
+    "alreadyHaveAccount": "已有账号？",
+    "loginInstead": "直接登录",
+    "passwordMismatch": "两次输入的密码不一致",
+    "error": "注册失败，请稍后重试"
+  },
+  "forgotPassword": {
+    "title": "找回密码",
+    "description": "请输入您的邮箱，我们将发送重置密码链接",
+    "email": "邮箱",
+    "submit": "发送重置链接",
+    "backToLogin": "返回登录",
+    "success": "邮件发送成功",
+    "successMessage": "请查看您的邮箱，按照邮件中的说明重置密码",
+    "error": "发送失败，请稍后重试"
+  },
+  "theme": {
+    "title": "主题设置",
+    "description": "自定义界面外观",
+    "sidebar": {
+      "title": "侧边栏",
+      "backgroundColor": "背景颜色",
+      "textColor": "文字颜色",
+      "activeItemColor": "选中项颜色",
+      "borderColor": "边框颜色"
+    },
+    "buttons": {
+      "title": "按钮",
+      "primary": "主要按钮",
+      "warning": "警告按钮",
+      "danger": "危险按钮",
+      "success": "成功按钮"
+    },
+    "pagination": {
+      "title": "分页",
+      "backgroundColor": "背景颜色",
+      "textColor": "文字颜色",
+      "activeItemColor": "选中项颜色",
+      "borderColor": "边框颜色"
+    }
+  },
+  "notifications":{
+    "title":"通知设置",
+    "description":"配置通知设置",
+    "markAsRead":"标记为已读",
+    "clearAll":"清空全部",
+    "newCount" : "新通知",
+    "markAllAsRead":"标记全部已读",
+    "newOrder":{
+       "title":"新订单",
+       "message":"您有一个新的订单待处理"
+    },
+    "lowStock" :{
+      "title":"库存不足",
+      "message":"产品库存低于库存阈值"
+    },
+    "newUser":{
+      "title":"新用户注册",
+      "message":"有一个新用户注册了"
+    }
+  }
+}

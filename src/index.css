@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 默认主题变量 */
+:root {
+  --sidebar-bg: #1f2937;
+  --sidebar-text: #ffffff;
+  --sidebar-active-item: #374151;
+  --sidebar-border: #374151;
+  --button-primary: #3b82f6;
+  --button-warning: #f59e0b;
+  --button-danger: #ef4444;
+  --button-success: #10b981;
+  --pagination-active: #3b82f6;
+}

@@ -1,0 +1,143 @@
+:root {
+  --sidebar-bg: #1f2937;
+  --sidebar-text: rgba(255, 255, 255, 0.7);
+  --sidebar-text-active: #ffffff;
+  --sidebar-active-item: #374151;
+  --sidebar-border: #374151;
+  --button-primary: #3b82f6;
+  --button-warning: #f59e0b;
+  --button-danger: #ef4444;
+  --button-success: #10b981;
+  --pagination-active: #3b82f6;
+}
+
+/* 主按钮样式 */
+.btn-primary {
+  background-color: var(--button-primary);
+  color: white;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 分页样式 */
+.pagination {
+  display: inline-flex;
+  align-items: center;
+}
+
+.pagination-item {
+  min-width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #e5e7eb;
+  background-color: white;
+  color: #374151;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.pagination-item:hover:not(.active) {
+  background-color: #f3f4f6;
+}
+
+.pagination-item.active {
+  background-color: var(--pagination-active);
+  border-color: var(--pagination-active);
+  color: white;
+  z-index: 1;
+}
+
+.pagination-nav {
+  min-width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #374151;
+}
+
+.pagination-nav:hover:not(:disabled) {
+  background-color: #f3f4f6;
+}
+
+.pagination-nav:disabled {
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.pagination-nav svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* 确保所有按钮都使用主题色 */
+button[type="submit"],
+.btn-primary,
+button.primary {
+  background-color: var(--button-primary);
+  color: white;
+}
+
+button[type="submit"]:disabled,
+.btn-primary:disabled,
+button.primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 确保所有分页组件使用主题色 */
+.pagination .active,
+.ant-pagination-item-active,
+.el-pagination .active {
+  background-color: var(--pagination-active) !important;
+  border-color: var(--pagination-active) !important;
+  color: white !important;
+}
+
+/* 自定义滚动条样式 */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+/* 确保滚动条在暗色主题下也能看清 */
+[data-theme="light"] .custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="light"] .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="light"] .custom-scrollbar {
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
